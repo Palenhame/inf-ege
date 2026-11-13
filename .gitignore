@@ -1,0 +1,26 @@
+# Binaries and build artifacts
+backend/api
+backend/seed
+/tmp/inf-ege-api
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Environment and secrets
+.env
+backend/.env
+*.env
+*.local
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
